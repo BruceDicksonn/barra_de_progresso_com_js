@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body {
+    background-color: #090B13;
+    background-image: url("https://www.itl.cat/pngfile/big/4-42994_gif-shortener-shorten-naruto-shippuden-wallpaper-gif.gif");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section{
+    max-width: 500px;
+    margin: auto;
+}
+
+[progresso]{
+    max-width: 500px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+[progresso] > div {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-image: url("https://c.tenor.com/kVDFaxgnXOIAAAAC/sharingan.gif");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: #090B13;
+    background-position: 100%;
+    height: 30px;
+    width: 0%;
+    display: none;
+}
+
+#video {
+    max-width: 100%;
+}
+
+#painel-botoes{
+    max-width: 490px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+#painel-botoes > button {
+    padding: 5px 25px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+#painel-botoes > button:hover {
+    background: url("https://pa1.narvii.com/6550/bc5eefa7fefe24461b07e5f648e051e9e06b29fb_hq.gif")
+    #c21417 no-repeat center;
+    background-size: cover;
+    background-color: #c21417;
+    color: white;
+    background-image: url("https://pa1.narvii.com/6550/bc5eefa7fefe24461b07e5f648e051e9e06b29fb_hq.gif");
+    transition-duration: 1s;
+}
