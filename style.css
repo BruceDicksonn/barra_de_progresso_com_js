@@ -66,3 +66,17 @@ section{
     background-image: url("https://pa1.narvii.com/6550/bc5eefa7fefe24461b07e5f648e051e9e06b29fb_hq.gif");
     transition-duration: 1s;
 }
+
+@media (max-width:450px){
+    #painel-botoes {
+        height: 50vh;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    #painel-botoes button {
+        width: 80px;
+        padding: 5px;
+    }
+}
